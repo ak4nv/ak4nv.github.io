@@ -1,0 +1,121 @@
+
+/* Basic Resume/CV Styling */
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.fade-me-in {
+  opacity: 1;
+  transition: opacity 0.4s ease-in;
+}
+
+.fade-me-in.htmx-swapping {
+  opacity: 0;
+}
+
+.language {
+  position: absolute;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.head h1 {
+  margin: 0;
+  color: #2c3e50;
+}
+
+.head caption {
+  display: block;
+  color: #7f8c8d;
+  margin-top: 5px;
+}
+
+.contact {
+  margin-top: 15px;
+}
+
+.contact a {
+  margin: 0 10px;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+h2, h3, h4 {
+  color: #2c3e50;
+  text-transform: uppercase;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+h4 small {
+  font-weight: normal;
+  font-style: italic;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+.experience p {
+  margin-bottom: 20px;
+}
+
+.experience h4 {
+  margin-bottom: 5px;
+  border-bottom: none;
+}
+
+.experience small {
+  color: #7f8c8d;
+}
+
+.period {
+  font-style: italic;
+  color: #555;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  text-align: right;
+  float: right;
+  display: block;
+}
+
+.tags li {
+  display: inline-block;
+  background-color: #ecf0f1;
+  color: #555;
+  padding: 3px 8px;
+  margin: 0 5px 5px 0;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+.education .degree span,
+.education .field_of_study span,
+.education .graduation span {
+  color: #555;
+  font-style: italic;
+}

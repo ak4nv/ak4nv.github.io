@@ -1,0 +1,177 @@
+{
+	"about": "",
+	"crossLink": {
+		"text": "Available in English",
+		"href": "/?lang=en"
+	},
+	"titles": {
+		"skills": "ключевые навыки",
+		"experience": "опыт работы",
+		"education": "образование"
+	},
+	"location": "Barskih Logoraśa str, 5B, Bar, Montenegro, 85000",
+	"timezone": "UTC+1:00",
+	"contact": [
+		{
+			"icon": "email",
+			"link": "mailto:ak04nv@gmail.com",
+			"text": "ak04nv@gmail.com"
+		},
+		{
+			"icon": "phone",
+			"link": "tel:+79246042044",
+			"text": "(+7) 924 604-20-44"
+		},
+		{
+			"icon": "telegram",
+			"link": "https://t.me/ak4nv",
+			"text": "t.me/ak4nv"
+		},
+		{
+			"icon": "github",
+			"link": "https://github.com/ak4nv",
+			"text": "github.com/ak4nv"
+		},
+		{
+			"icon": "LinkedIn",
+			"link": "https://www.linkedin.com/in/ak4nv/",
+			"text": "linkedin.com/in/ak4nv"
+		}
+	],
+	"firstname": "Антон",
+	"lastname": "Кочнев",
+	"sex": true,
+	"headline": {
+		"title": "Python Backend разработчик",
+		"text": "Более 10 лет опыта в разработке на Python и опыт в разработке front end (включая SPA). Разрабатывал безопасные и надежные веб-приложения с использованием различных фреймворков, применяя синхронные и асинхронные подходы."
+	},
+	"skills": [
+		"Уверенное знание Python и понимание веб-технологий/фреймворков (Flask, Django, FastAPI)",
+		"Опыт с различными серверными технологиями (Базы данных Postgres, Mongo, Key-value хранилище Redis, Брокер RabbitMQ)",
+		"Опыт работы с frontend фреймворками (VueJS, AlpineJS, jQuery)",
+		"Использование общепринятых практик развёртывания приложений (Docker, CI/CD, k8s)",
+		"Следование мировым практикам процесса разработки и написания кода  (GitHub flow, PEP8, etc…)",
+		"Опыт работы в команде"
+	],
+	"experience": [
+		{
+			"company": "IntellAct U.S. Ltd, Иерусалим, Израиль",
+			"position": "Python разработчик",
+			"period": [{"from": "06/2020", "to": "04/2025"}],
+			"responsobilities": [
+				"Участвовал в разработке архитектуры приложения",
+				"Разработал несколько алгоритмов принятия решений для создания событий",
+				"Создал и поддерживал сервис отслеживания объектов и уведомлений",
+				"Разработал веб-сервер для доставки и визуализации данных"			],
+			"technologies": [
+				"nginx",
+				"fastapi",
+				"celery",
+				"redis",
+				"pika",
+				"mongodb",
+				"rabbitmq",
+				"postgresql",
+				"elasticsearch"
+			]
+		},
+		{
+			"company": "BiomX Inc, Нес-Циона, Израиль",
+			"position": "Web разработчик",
+			"period": [{"from": "04/2018", "to": "04/2020"}],
+			"responsobilities": [
+				"Разработка информационной системы для биохимической лаборатории",
+				"Написание backend/frontend частей системы",
+				"Настройка автоматического развёртывания"
+			],
+			"technologies": [
+				"nginx",
+				"uwsgi",
+				"flask",
+				"peewee",
+				"postgresql",
+				"vuejs",
+				"coreui"
+			]
+		},
+		{
+			"company": "Иркутский Областной Онкологический Диспансер, Иркутск, Россия",
+			"position": "Разработчик приложений",
+			"period": [
+				{"from": "12/2008", "to": "04/2012"},
+				{"from": "02/2014", "to": "12/2020"}
+			],
+			"responsobilities": [
+				"Разработка многочисленных сервисов для внутреннего использования, таких как история болезни пациента, регистратура, сервис статистики, модуль авторизации, модуль валидации данных с внешними источниками",
+				"Разработка системы автоматического развертывания приложений",
+				"Поддержка устаревшей кодовой базы",
+				"Конфигурирование сервера базы данных (репликация/балансировщик нагрузки)",
+				"Администрирование серверов Linux"
+			],
+			"technologies": [
+				"nginx",
+				"uwsgi",
+				"django",
+				"flask",
+				"sanic",
+				"peewee",
+				"celery",
+				"postgresql",
+				"pgbouncer",
+				"redis",
+				"vuejs",
+				"jquery",
+				"bootstrap",
+				"java",
+				"tomcat"
+			]
+		},
+		{
+			"company": "Контрольно-счётная палата Иркутской области, Иркутск, Россия",
+			"position": "Системный администратор",
+			"period": [{"from": "04/2012", "to": "02/2014"}],
+			"responsobilities": [
+				"Системное администрирование и поддержка пользователей (Windows Active Directory)",
+				"Техподдержка пользователей и обслуживание оборудования предприятия",
+				"Поддержка и ведение корпоративного веб сайта"
+			],
+			"technologies": [
+				"Active Directory",
+				"Windows IIS",
+				"Windows Server OS",
+				"Windows 7 OS"
+			]
+		},
+		{
+			"company": "Code-On, Алст, Бельгия",
+			"position": "Web разработчик",
+			"period": [{"from": "01/2010", "to": "03/2012"}],
+			"responsobilities": [
+				"Разработка вебсайтов"
+			],
+			"technologies": [
+				"django",
+				"jquery",
+				"postgresql",
+				"bootstrap"
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "Иркутский Государственный Университет",
+			"field_of_study": {
+				"title": "Специальность",
+				"value": "Математическое обеспечение и администрирование информационных систем"
+			},
+			"degree": {
+				"title": "Квалификация",
+				"value": "Математик-программист"
+			},
+			"graduation": {
+				"title": "Год выпуска",
+				"value": "2009"
+			}
+		}
+	]
+}

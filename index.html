@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Anton Kochnev's Resume</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://unpkg.com/htmx.org@2.0.8"></script>
+  <script src="https://unpkg.com/htmx-ext-client-side-templates@2.0.0/client-side-templates.js"></script>
+  <script src="https://unpkg.com/mustache@latest"></script>
+</head>
+<body>
+  <div hx-ext="client-side-templates">
+    <div class="fade-me-in"
+         hx-get="/data/:language.json"
+         hx-swap="innerHTML swap:0.4s"
+         hx-trigger="load"
+         mustache-array-template="about">
+      <div align="center">Loading...</div>
+    </div>
+
+    <template id="about">
+    {{#data}}
+      {{#crossLink}}
+        <a href="{{href}}" class="language">{{text}}</a>
+      {{/crossLink}}
+      <div class="head">
+        <h1><small>{{firstname}} {{lastname}}</small></h1>
+        <div>
+          {{location}}
+          <small>({{timezone}})</small>
+        </div>
+        <div class="contact">
+        {{#contact}}
+          <a href="{{link}}">{{text}}</a>
+        {{/contact}}
+        </div>
+      </div>
+
+      {{#headline}}
+        <h3>{{title}}</h3>
+        <p>{{text}}</p>
+      {{/headline}}
+
+      <h3>{{titles.skills}}</h3>
+      <ul>
+      {{#skills}}
+        <li>{{.}}</li>
+      {{/skills}}
+      </ul>
+
+      <h3>{{titles.experience}}</h3>
+      {{#experience}}
+        <h4>{{position}} <small>{{company}}</small></h4>
+        <ul class="period">
+          {{#period}}
+            <li>{{from}} — {{to}}</li>
+          {{/period}}
+        </ul>
+        <ul class="responsobilities">
+          {{#responsobilities}}
+          <li>{{.}}</li>
+          {{/responsobilities}}
+        </ul>
+        <ul class="tags">
+          {{#technologies}}
+          <li>{{.}}</li>
+          {{/technologies}}
+        </ul>
+      {{/experience}}
+
+      <h3>{{titles.education}}</h3>
+      {{#education}}
+        <h4>{{institution}}</h4>
+        <div class="education">
+          {{#field_of_study}}
+          <div class="field_of_study">
+            {{title}}: <span>{{value}}</span>
+          </div>
+          {{/field_of_study}}
+          {{#degree}}
+          <div class="degree">
+            {{title}}: <span>{{value}}</span>
+          </div>
+          {{/degree}}
+          {{#graduation}}
+          <div class="graduation">
+            {{title}}: <span>{{value}}</span>
+          </div>
+        </div>
+        {{/graduation}}
+      {{/education}}
+
+    {{/data}}
+    </template>
+
+  </div>
+
+<!-- 
+<div class="fade-element">
+  Hover over me to see the opacity transition.
+</div>
+<style>
+.fade-element {
+  /* Initial state */
+  opacity: 1;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  /* Specifies that the 'opacity' property should transition over 0.5 seconds with an 'ease' timing function */
+  transition: opacity 0.5s ease;
+}
+
+.fade-element:hover {
+  /* The final state, triggering the transition */
+  opacity: 0.5;
+}
+</style>
+ -->
+
+  <!-- <script defer src="https://radiopotok.ru/f/script6.1/2311.js" charset="UTF-8"></script>
+  <div class="RP-SCRIPT"><a class="RP-LINK" href="https://radiopotok.ru/lofiradio"></a></div>
+ -->
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const language = params.get("lang") == "ru" ? "ru" : "en";
+
+    document.body.addEventListener("htmx:configRequest", function(event) {
+        if (event.detail.path && event.detail.path.includes(":language")) {
+            event.detail.path = event.detail.path.replace(":language", language);
+        }
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,178 @@
+{
+	"about": "",
+	"crossLink": {
+		"text": "Доступно на русском",
+		"href": "/?lang=ru"
+	},
+	"titles": {
+		"skills": "skills & competencies",
+		"experience": "work experience",
+		"education": "education"
+	},
+	"location": "Barskih Logoraśa str, 5B, Bar, Montenegro, 85000",
+	"timezone": "UTC+1:00",
+	"contact": [
+		{
+			"icon": "email",
+			"link": "mailto:ak04nv@gmail.com",
+			"text": "ak04nv@gmail.com"
+		},
+		{
+			"icon": "phone",
+			"link": "tel:+38268306431",
+			"text": "(+382) 68 306-431"
+		},
+		{
+			"icon": "telegram",
+			"link": "https://t.me/ak4nv",
+			"text": "t.me/ak4nv"
+		},
+		{
+			"icon": "github",
+			"link": "https://github.com/ak4nv",
+			"text": "github.com/ak4nv"
+		},
+		{
+			"icon": "LinkedIn",
+			"link": "https://www.linkedin.com/in/ak4nv/",
+			"text": "linkedin.com/in/ak4nv"
+		}
+	],
+	"firstname": "Anton",
+	"lastname": "Kochnev",
+	"sex": true,
+	"headline": {
+		"title": "Python Backend Developer",
+		"text": "With over 10 years of experience in backend development in Python and a bit of experience in frontend development (including SPA), I've built and integrated secure and reliable web applications using various frameworks using synchronous and asynchronous approaches."
+	},
+	"skills": [
+		"Proficiency in Python and web-related technologies (Flask, Django, FastAPI)",
+		"Experience with various server side technologies (Postgres, Mongo, Redis, RabbitMQ)",
+		"Experience with frontend frameworks (VueJS, AlpineJS, jQuery)",
+		"Familiar with common deployment practice and tools (Docker, CI/CD, k8s)",
+		"Ability to adhere to coding standards and best practices (GitHub flow, PEP8, etc…)",
+		"Experience working in a team"
+	],
+	"experience": [
+		{
+			"company": "IntellAct U.S. Ltd, Jerusalem, Israel",
+			"position": "Python Backend Developer",
+			"period": [{"from": "06/2020", "to": "04/2025"}],
+			"responsobilities": [
+				"Participated in the development of the application architecture",
+				"Developed several decision-making algorithms for creating events",
+				"Created and supported an object tracking and notification service",
+				"Built a web server for data delivery and visualization"
+			],
+			"technologies": [
+				"nginx",
+				"fastapi",
+				"celery",
+				"redis",
+				"pika",
+				"mongodb",
+				"rabbitmq",
+				"postgresql",
+				"elasticsearch"
+			]
+		},
+		{
+			"company": "BiomX Inc, Ness Ziona, Israel",
+			"position": "Web Developer",
+			"period": [{"from": "04/2018", "to": "04/2020"}],
+			"responsobilities": [
+				"Development of an information system for a biochemical laboratory",
+				"Writing the backend/frontend parts of the system",
+				"Configuring automatic deployment"
+			],
+			"technologies": [
+				"nginx",
+				"uwsgi",
+				"flask",
+				"peewee",
+				"postgresql",
+				"vuejs",
+				"coreui"
+			]
+		},
+		{
+			"company": "Irkutsk Oncology Center, Irkutsk, Russian Federation",
+			"position": "Software Developer",
+			"period": [
+				{"from": "12/2008", "to": "04/2012"},
+				{"from": "02/2014", "to": "12/2020"}
+			],
+			"responsobilities": [
+				"Development of microservices for internal needs of the company, such as patient's medical history, medication accounting (receipt, storage, consumption), statistics service, end-to-end authorization module, patient registration system and data verification using external services",
+				"Development and application of the application deployment system",
+				"Legacy-system support",
+				"Database server configuration for applications with replication and load balancer",
+				"Linux servers administration"
+			],
+			"technologies": [
+				"nginx",
+				"uwsgi",
+				"django",
+				"flask",
+				"sanic",
+				"peewee",
+				"celery",
+				"postgresql",
+				"pgbouncer",
+				"redis",
+				"vuejs",
+				"jquery",
+				"bootstrap",
+				"java",
+				"tomcat"
+			]
+		},
+		{
+			"company": "Court of Auditors of the Irkutsk region, Irkutsk, Russian Federation",
+			"position": "System Network Administrator",
+			"period": [{"from": "04/2012", "to": "02/2014"}],
+			"responsobilities": [
+				"Network administration and user support (Windows Active Directory)",
+				"Support and maintenance of the company's computer and network equipment",
+				"Support and maintenance of the corporate website"
+			],
+			"technologies": [
+				"Active Directory",
+				"Windows IIS",
+				"Windows Server OS",
+				"Windows 7 OS"
+			]
+		},
+		{
+			"company": "Code-On, Aalst, België",
+			"position": "Web developer",
+			"period": [{"from": "01/2010", "to": "03/2012"}],
+			"responsobilities": [
+				"Website development"
+			],
+			"technologies": [
+				"django",
+				"jquery",
+				"postgresql",
+				"bootstrap"
+			]
+		}
+	],
+	"education": [
+		{
+			"institution": "Irkutsk State University",
+			"field_of_study": {
+				"title": "Field of Study",
+				"value": "Mathematical support and administration of information systems"
+			},
+			"degree": {
+				"title": "Qualification",
+				"value": "Mathematician / Programmer"
+			},
+			"graduation": {
+				"title": "Graduation year",
+				"value": "2009"
+			}
+		}
+	]
+}
