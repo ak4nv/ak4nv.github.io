@@ -1,7 +1,13 @@
-
 /* Basic Resume/CV Styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
   line-height: 1.6;
   margin: 20px;
   background-color: #f4f4f4;
